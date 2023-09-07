@@ -16,6 +16,7 @@ p {
 
 .main-content-card {
     display: flex;
+    margin-top: 50px;
     justify-content: space-between;
 }
 
@@ -49,5 +50,9 @@ p {
     .card-image {
         width: 100%;
         padding: 0;
+    }
+
+    .card-content {
+        order: 1;
     }
 }
